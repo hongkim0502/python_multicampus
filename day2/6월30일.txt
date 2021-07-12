@@ -1,0 +1,20 @@
+v1 = 100
+v2 = 50
+r1 = v1 + v2
+r2 = v1 - v2
+r3 = v1 * v2
+r4 = v1 / v2
+print(r1,r2,r3,r4)
+
+
+name1 = '김'
+name2 = '홍'
+name3 = '석'
+print(name1,name2,name3)
+print(name1,name2,name3, sep ='@')
+print(name1,name2,name3, sep ='--')
+
+
+print(10+25+34)
+print((10+25+34)/3)
+
