@@ -19,4 +19,4 @@ def dumpdir(path):
         else:
             print("\t" + fullpath)
 
-dumpdir("c:\\kjh\\PYTHONexam")
+dumpdir("c:\\khs\\PYTHONexam")

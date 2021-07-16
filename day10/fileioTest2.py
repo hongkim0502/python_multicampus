@@ -1,3 +1,4 @@
+f = None
 try:
     f = open("live.txt", "rt", encoding="UTF-8")
     print(f, type(f))
@@ -6,8 +7,13 @@ try:
 except FileNotFoundError:
     print("파일이 없습니다.")
 finally:
-    f.close()
+    if f :
+        print("파일 닫기")
+        f.close()
+    else:
+        print("열리지도 않았음")
 
+'''
 print("*"*20)
 f = None
 try:
@@ -22,3 +28,4 @@ finally:
 
 help(open)
 help(f.read)
+'''
